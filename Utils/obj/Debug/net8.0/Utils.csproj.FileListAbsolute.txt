@@ -9,3 +9,4 @@ C:\Users\abdul\OneDrive\Desktop\GenericDelegateCollections\Utils\obj\Debug\net8.
 C:\Users\abdul\OneDrive\Desktop\GenericDelegateCollections\Utils\obj\Debug\net8.0\refint\Utils.dll
 C:\Users\abdul\OneDrive\Desktop\GenericDelegateCollections\Utils\obj\Debug\net8.0\Utils.pdb
 C:\Users\abdul\OneDrive\Desktop\GenericDelegateCollections\Utils\obj\Debug\net8.0\ref\Utils.dll
+C:\Users\abdul\OneDrive\Desktop\GenericDelegateCollections\Utils\obj\Debug\net8.0\Utils.sourcelink.json

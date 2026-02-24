@@ -15,7 +15,7 @@ namespace Utils.Models
         {
             _id++;
             ID = _id;
-            BookLimit=10;
+            BookLimit=100;
         }
 
         public void AddBook(Book book)

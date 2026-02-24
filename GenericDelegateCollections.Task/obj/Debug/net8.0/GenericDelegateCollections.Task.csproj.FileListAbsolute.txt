@@ -16,3 +16,4 @@ C:\Users\abdul\OneDrive\Desktop\GenericDelegateCollections\GenericDelegateCollec
 C:\Users\abdul\OneDrive\Desktop\GenericDelegateCollections\GenericDelegateCollections.Task\obj\Debug\net8.0\GenericDelegateCollections.Task.pdb
 C:\Users\abdul\OneDrive\Desktop\GenericDelegateCollections\GenericDelegateCollections.Task\obj\Debug\net8.0\GenericDelegateCollections.Task.genruntimeconfig.cache
 C:\Users\abdul\OneDrive\Desktop\GenericDelegateCollections\GenericDelegateCollections.Task\obj\Debug\net8.0\ref\GenericDelegateCollections.Task.dll
+C:\Users\abdul\OneDrive\Desktop\GenericDelegateCollections\GenericDelegateCollections.Task\obj\Debug\net8.0\GenericDelegateCollections.Task.sourcelink.json
