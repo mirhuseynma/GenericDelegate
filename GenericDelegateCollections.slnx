@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="GenericDelegateCollections.Task/GenericDelegateCollections.Task.csproj" />
+  <Project Path="Utils/Utils.csproj" />
+</Solution>

@@ -1,0 +1,62 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\abdul\\OneDrive\\Desktop\\GenericDelegateCollections\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{65B858B0-FA7C-8D60-ADB1-EB168B88825D}|Utils\\Utils.csproj|c:\\users\\abdul\\onedrive\\desktop\\genericdelegatecollections\\utils\\models\\library.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65B858B0-FA7C-8D60-ADB1-EB168B88825D}|Utils\\Utils.csproj|solutionrelative:utils\\models\\library.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57C6F60C-91C4-5307-9716-6EFDD8571D22}|GenericDelegateCollections.Task\\GenericDelegateCollections.Task.csproj|c:\\users\\abdul\\onedrive\\desktop\\genericdelegatecollections\\genericdelegatecollections.task\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57C6F60C-91C4-5307-9716-6EFDD8571D22}|GenericDelegateCollections.Task\\GenericDelegateCollections.Task.csproj|solutionrelative:genericdelegatecollections.task\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Library.cs",
+              "DocumentMoniker": "C:\\Users\\abdul\\OneDrive\\Desktop\\GenericDelegateCollections\\Utils\\Models\\Library.cs",
+              "RelativeDocumentMoniker": "Utils\\Models\\Library.cs",
+              "ToolTip": "C:\\Users\\abdul\\OneDrive\\Desktop\\GenericDelegateCollections\\Utils\\Models\\Library.cs",
+              "RelativeToolTip": "Utils\\Models\\Library.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAuwFYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T06:30:03.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\abdul\\OneDrive\\Desktop\\GenericDelegateCollections\\GenericDelegateCollections.Task\\Program.cs",
+              "RelativeDocumentMoniker": "GenericDelegateCollections.Task\\Program.cs",
+              "ToolTip": "C:\\Users\\abdul\\OneDrive\\Desktop\\GenericDelegateCollections\\GenericDelegateCollections.Task\\Program.cs",
+              "RelativeToolTip": "GenericDelegateCollections.Task\\Program.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAgwCYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T06:10:24.042Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
