@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NpyfTKdT1bQ=",
+  "dgSpecHash": "BVVtfgjIQLc=",
   "success": true,
-  "projectFilePath": "C:\\Users\\abdul\\OneDrive\\Desktop\\GenericDelegateCollections\\GenericDelegateCollections.Task\\GenericDelegateCollections.Task.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\abdul\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.24\\microsoft.windowsdesktop.app.ref.8.0.24.nupkg.sha512",
-    "C:\\Users\\abdul\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.24\\microsoft.netcore.app.ref.8.0.24.nupkg.sha512",
-    "C:\\Users\\abdul\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.24\\microsoft.aspnetcore.app.ref.8.0.24.nupkg.sha512",
-    "C:\\Users\\abdul\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.24\\microsoft.netcore.app.host.win-x64.8.0.24.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\mirhuseynma\\Desktop\\GenericDelegate\\GenericDelegateCollections.Task\\GenericDelegateCollections.Task.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

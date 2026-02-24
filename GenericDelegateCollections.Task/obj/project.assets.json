@@ -27,23 +27,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\abdul\\.nuget\\packages\\": {},
+    "C:\\Users\\mirhuseynma\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\abdul\\OneDrive\\Desktop\\GenericDelegateCollections\\GenericDelegateCollections.Task\\GenericDelegateCollections.Task.csproj",
+      "projectUniqueName": "C:\\Users\\mirhuseynma\\Desktop\\GenericDelegate\\GenericDelegateCollections.Task\\GenericDelegateCollections.Task.csproj",
       "projectName": "GenericDelegateCollections.Task",
-      "projectPath": "C:\\Users\\abdul\\OneDrive\\Desktop\\GenericDelegateCollections\\GenericDelegateCollections.Task\\GenericDelegateCollections.Task.csproj",
-      "packagesPath": "C:\\Users\\abdul\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\abdul\\OneDrive\\Desktop\\GenericDelegateCollections\\GenericDelegateCollections.Task\\obj\\",
+      "projectPath": "C:\\Users\\mirhuseynma\\Desktop\\GenericDelegate\\GenericDelegateCollections.Task\\GenericDelegateCollections.Task.csproj",
+      "packagesPath": "C:\\Users\\mirhuseynma\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mirhuseynma\\Desktop\\GenericDelegate\\GenericDelegateCollections.Task\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\abdul\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\mirhuseynma\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -52,14 +52,15 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\abdul\\OneDrive\\Desktop\\GenericDelegateCollections\\Utils\\Utils.csproj": {
-              "projectPath": "C:\\Users\\abdul\\OneDrive\\Desktop\\GenericDelegateCollections\\Utils\\Utils.csproj"
+            "C:\\Users\\mirhuseynma\\Desktop\\GenericDelegate\\Utils\\Utils.csproj": {
+              "projectPath": "C:\\Users\\mirhuseynma\\Desktop\\GenericDelegate\\Utils\\Utils.csproj"
             }
           }
         }
@@ -90,30 +91,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[8.0.24, 8.0.24]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[8.0.24, 8.0.24]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[8.0.24, 8.0.24]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[8.0.24, 8.0.24]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

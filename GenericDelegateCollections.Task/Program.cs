@@ -34,50 +34,54 @@ namespace GenericDelegateCollections.Task
             library.FilterBookByPageCount(150, 340);
 
             // User object...
-            
-            
-            Console.WriteLine("\nInput your information:  Name / Email / (Role: Member/Admin) ");
-            Console.WriteLine("\nInput your name \n");
-            string? name = Console.ReadLine();
-            if (string.IsNullOrEmpty(name))
-            {
-                Console.WriteLine("Name cannot be empty. Please enter a valid name.");
-                return;
-            }
-            Console.WriteLine("\nInput your Email ");
-            string? email = Console.ReadLine();
-            if (string.IsNullOrEmpty(email))
-            {
-                Console.WriteLine("Email cannot be empty. Please enter a valid email.");
-                return;
-            }
-            else if (!email.Contains("@") || !email.Contains("."))
-            {
-                Console.WriteLine("Invalid email format. Please enter a valid email.");
-                return;
-            }
-            Console.WriteLine("\nInput your role (Member/Admin) ");
-            string? role = Console.ReadLine();
-            if (string.IsNullOrEmpty(role))
-            {
-                Console.WriteLine("Role cannot be empty. Please enter 'Member' or 'Admin'.");
-                return;
-            }
-            bool isParsed = Enum.TryParse(role, true, out Roles userRole);
 
-            if (!isParsed)
-            {
-                Console.WriteLine("Invalid role. Please enter 'Member' or 'Admin'.");
-                return;
-            }
-            User newUser = new User(name, email, userRole);
-            Console.WriteLine(newUser.ShowInfo());
             
+                Console.WriteLine("\nInput your information:  Name / Email / (Role: Member/Admin) ");
+            EnterName:
+                Console.WriteLine("\nInput your name \n");
+                string? name = Console.ReadLine();
+                if (string.IsNullOrEmpty(name))
+                {
+                    Console.WriteLine("Name cannot be empty. Please enter a valid name.");
+                    goto EnterName;
+                }
+            EnterEmail:
+                Console.WriteLine("\nInput your Email ");
+                string? email = Console.ReadLine();
+                if (string.IsNullOrEmpty(email))
+                {
+                    Console.WriteLine("Email cannot be empty. Please enter a valid email.");
+                    goto EnterEmail;
 
-            //Library object...
+                }
+                else if (!email.Contains("@") || !email.Contains("."))
+                {
+                    Console.WriteLine("Invalid email format. Please enter a valid email.");
+                    goto EnterEmail;
+                }
+            EnterRole:
+                Console.WriteLine("\nInput your role (Member/Admin) ");
+                string? role = Console.ReadLine();
+                if (string.IsNullOrEmpty(role))
+                {
+                    Console.WriteLine("Role cannot be empty. Please enter 'Member' or 'Admin'.");
+                    goto EnterRole;
+                }
+                bool isParsed = Enum.TryParse(role, true, out Roles userRole);
+
+                if (!isParsed)
+                {
+                    Console.WriteLine("Invalid role. Please enter 'Member' or 'Admin'.");
+                    goto EnterRole;
+                }
+                User newUser = new User(name, email, userRole);
+                Console.WriteLine(newUser.ShowInfo());
+
+
+                //Library object...
             while (true)
-            {
-                Console.WriteLine("Menu\n1. Add book\n2. Get book by id\n3. Get all books\n4. Delete book by id\n5. Edit book name\n6. Filter by page count\n0. Quit");
+                {
+                    Console.WriteLine("Menu\n1. Add book\n2. Get book by id\n3. Get all books\n4. Delete book by id\n5. Edit book name\n6. Filter by page count\n0. Quit");
                 Console.WriteLine("Input your choice: ");
                 int choice = Convert.ToInt32(Console.ReadLine());
                 switch (choice)
@@ -85,7 +89,7 @@ namespace GenericDelegateCollections.Task
                     case 1:
                         if(newUser.Role != Roles.Admin)
                         {
-                            Console.WriteLine("Only Admin can add books to the library.");
+                            Console.WriteLine("\nOnly Admin can add books to the library.\n");
                             break;
                         }
                         Console.WriteLine("Input book name: ");
@@ -109,7 +113,7 @@ namespace GenericDelegateCollections.Task
                     case 4:
                         if (newUser.Role != Roles.Admin)
                         {
-                            Console.WriteLine("Only Admin can delete books from the library.");
+                            Console.WriteLine("\nOnly Admin can delete books from the library.\n");
                             break;
                         }
                         Console.WriteLine("Enter book ID to delete: ");
@@ -120,7 +124,7 @@ namespace GenericDelegateCollections.Task
                     case 5:
                         if (newUser.Role != Roles.Admin)
                         {
-                            Console.WriteLine("Only Admin can edit books in the library.");
+                            Console.WriteLine("\nOnly Admin can edit books in the library.\n");
                             break;
                         }
                         Console.WriteLine("Enter book ID to edit: ");
@@ -136,7 +140,7 @@ namespace GenericDelegateCollections.Task
                         library.FilterBookByPageCount(minPageCount, maxPageCount);
                         break;
                     case 0:
-                        Console.WriteLine("Exiting the program. Goodbye!");
+                        Console.WriteLine("\nExiting the program. Goodbye!\n");
                         return;
                     default:
                         Console.WriteLine("Invalid choice. Please enter a number from the menu.");

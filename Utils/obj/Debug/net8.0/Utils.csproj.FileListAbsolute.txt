@@ -10,3 +10,15 @@ C:\Users\abdul\OneDrive\Desktop\GenericDelegateCollections\Utils\obj\Debug\net8.
 C:\Users\abdul\OneDrive\Desktop\GenericDelegateCollections\Utils\obj\Debug\net8.0\Utils.pdb
 C:\Users\abdul\OneDrive\Desktop\GenericDelegateCollections\Utils\obj\Debug\net8.0\ref\Utils.dll
 C:\Users\abdul\OneDrive\Desktop\GenericDelegateCollections\Utils\obj\Debug\net8.0\Utils.sourcelink.json
+C:\Users\mirhuseynma\Desktop\GenericDelegate\Utils\bin\Debug\net8.0\Utils.deps.json
+C:\Users\mirhuseynma\Desktop\GenericDelegate\Utils\bin\Debug\net8.0\Utils.dll
+C:\Users\mirhuseynma\Desktop\GenericDelegate\Utils\bin\Debug\net8.0\Utils.pdb
+C:\Users\mirhuseynma\Desktop\GenericDelegate\Utils\obj\Debug\net8.0\Utils.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mirhuseynma\Desktop\GenericDelegate\Utils\obj\Debug\net8.0\Utils.AssemblyInfoInputs.cache
+C:\Users\mirhuseynma\Desktop\GenericDelegate\Utils\obj\Debug\net8.0\Utils.AssemblyInfo.cs
+C:\Users\mirhuseynma\Desktop\GenericDelegate\Utils\obj\Debug\net8.0\Utils.csproj.CoreCompileInputs.cache
+C:\Users\mirhuseynma\Desktop\GenericDelegate\Utils\obj\Debug\net8.0\Utils.sourcelink.json
+C:\Users\mirhuseynma\Desktop\GenericDelegate\Utils\obj\Debug\net8.0\Utils.dll
+C:\Users\mirhuseynma\Desktop\GenericDelegate\Utils\obj\Debug\net8.0\refint\Utils.dll
+C:\Users\mirhuseynma\Desktop\GenericDelegate\Utils\obj\Debug\net8.0\Utils.pdb
+C:\Users\mirhuseynma\Desktop\GenericDelegate\Utils\obj\Debug\net8.0\ref\Utils.dll
